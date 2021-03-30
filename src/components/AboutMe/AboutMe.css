@@ -1,0 +1,28 @@
+.aboutme-wrapper {
+    min-height: 60vh;
+}
+
+.aboutme-wrapper div {
+    height: 100%;
+}
+
+.about-container-content{
+    padding: 1.8rem;
+    position: absolute;
+    width: 600px;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.about-container-content h1 {
+    font-size: 3.0rem;
+    margin-bottom: 30px;
+}
+
+.about-container-content p {
+    font-size: 1.5rem;
+}
