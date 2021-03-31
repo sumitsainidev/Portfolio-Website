@@ -57,4 +57,80 @@ const educationInfo = {
   ],
 };
 
-export { socialMediaLinks, workExperiences, educationInfo };
+const skillsBar = [
+  {
+    name: "HTML5",
+    faClass: "fab fa-html5",
+  },
+  {
+    name: "CSS3",
+    faClass: "fab fa-css3",
+  },
+  {
+    name: "Javascript",
+    faClass: "fab fa-js",
+  },
+  {
+    name: "React Js",
+    faClass: "fab fa-react",
+  },
+  {
+    name: "Node",
+    faClass: "fab fa-node",
+  },
+  {
+    name: "Ruby",
+    faClass: "fas fa-gem",
+  },
+
+  {
+    name: "Rails",
+    faClass: "fas fa-road",
+  },
+  {
+    name: "Python",
+    faClass: "fab fa-python",
+  },
+  {
+    name: "Java",
+    faClass: "fab fa-java",
+  },
+  {
+    name: "PHP",
+    faClass: "fab fa-php",
+  },
+  {
+    name: "Database",
+    faClass: "fas fa-database",
+  },
+  {
+    name: "AWS",
+    faClass: "fab fa-aws",
+  },
+  {
+    name: "Docker",
+    faClass: "fab fa-docker",
+  },
+  {
+    name: "NPM",
+    faClass: "fab fa-npm",
+  },
+  {
+    name: "Heroku",
+    faClass: "fas fa-h-square",
+  },
+  {
+    name: "Swift",
+    faClass: "fab fa-swift",
+  },
+  {
+    name: "Linux",
+    faClass: "fab fa-linux",
+  },
+  {
+    name: "Wordpress",
+    faClass: "fab fa-wordpress",
+  },
+];
+
+export { socialMediaLinks, workExperiences, educationInfo, skillsBar };
