@@ -5,4 +5,30 @@ const socialMediaLinks = {
   display: true, // Set true to display this section, defaults to false
 };
 
-export { socialMediaLinks };
+const workExperiences = {
+  display: true, //Set it to true to show workExperiences Section
+  experience: [
+    {
+      role: "Full-Stack Developer",
+      company: "Samsung",
+      companylogo: "./Images/samsung_logo.png",
+      date: "June 2019 – Nov 2020",
+      desc:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      descBullets: [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      ],
+    },
+    {
+      role: "Full-Stack Developer",
+      company: "J&F",
+      companylogo: "./Images/jf_logo.png",
+      date: "Nov 2020 – Present",
+      desc:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    },
+  ],
+};
+
+export { socialMediaLinks, workExperiences };
