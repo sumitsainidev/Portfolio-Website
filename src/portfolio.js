@@ -71,11 +71,15 @@ const skillsBar = [
     faClass: "fab fa-js",
   },
   {
-    name: "React Js",
+    name: "ReactJs",
     faClass: "fab fa-react",
   },
   {
-    name: "Node",
+    name: "Redux",
+    faClass: "fab fa-battle-net",
+  },
+  {
+    name: "NodeJs",
     faClass: "fab fa-node",
   },
   {
@@ -87,25 +91,35 @@ const skillsBar = [
     name: "Rails",
     faClass: "fas fa-road",
   },
+
+  {
+    name: "ThreeJs",
+    faClass: "fas fa-cubes",
+  },
+
   {
     name: "Python",
     faClass: "fab fa-python",
   },
   {
-    name: "Java",
-    faClass: "fab fa-java",
-  },
-  {
-    name: "PHP",
-    faClass: "fab fa-php",
-  },
-  {
-    name: "Database",
+    name: "MySQL",
     faClass: "fas fa-database",
+  },
+  {
+    name: "PostgreSQL",
+    faClass: "fas fa-server",
   },
   {
     name: "AWS",
     faClass: "fab fa-aws",
+  },
+  {
+    name: "Heroku",
+    faClass: "fas fa-h-square",
+  },
+  {
+    name: "Firebase",
+    faClass: "fas fa-fire",
   },
   {
     name: "Docker",
@@ -115,21 +129,10 @@ const skillsBar = [
     name: "NPM",
     faClass: "fab fa-npm",
   },
-  {
-    name: "Heroku",
-    faClass: "fas fa-h-square",
-  },
-  {
-    name: "Swift",
-    faClass: "fab fa-swift",
-  },
+
   {
     name: "Linux",
     faClass: "fab fa-linux",
-  },
-  {
-    name: "Wordpress",
-    faClass: "fab fa-wordpress",
   },
 ];
 
