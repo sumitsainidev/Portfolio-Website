@@ -1,8 +1,9 @@
 import React, { useEffect } from "react";
-import Section from "../components/Section";
-import Card from "../components/Card";
+import Section from "./projectItems/Section";
+import Card from "./projectItems/Card";
 import { useState } from "react";
 import { connect } from "react-redux";
+import "./Projects.scss";
 
 const Projects = ({ portfolios }) => {
   const [count, setCount] = useState(8);
@@ -13,27 +14,33 @@ const Projects = ({ portfolios }) => {
   }, [count, portfolios]);
 
   return (
-    <Section id="portfolio" title="Major Open Source Projects">
-      <div className="cards">
-        {items && items.map((card, index) => <Card card={card} key={index} />)}
-      </div>
-
-      <div className="d-flex justify-content-center">
-        {count < portfolios.length && (
-          <div
-            className="btn btn-primary mt-5 btn-lg"
-            onClick={() => setCount(count + 4)}
-          >
-            See more
+    <div className="education-container">
+      <div className="education-section">
+        <Section id="portfolio">
+          <h1 className="education-heading">Projects</h1>
+          <div className="cards">
+            {items &&
+              items.map((card, index) => <Card card={card} key={index} />)}
           </div>
-        )}
+
+          <div className="d-flex justify-content-center">
+            {count < portfolios.length && (
+              <div
+                className="btn btn-primary mt-5 btn-lg"
+                onClick={() => setCount(count + 4)}
+              >
+                See more
+              </div>
+            )}
+          </div>
+        </Section>
       </div>
-    </Section>
+    </div>
   );
 };
 
 const mapStateToProps = (store) => {
-  const { portfolios } = store.portfolio;
+  const portfolios = store.portfolios;
   return { portfolios };
 };
 
