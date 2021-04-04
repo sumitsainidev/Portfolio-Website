@@ -5,6 +5,13 @@ const socialMediaLinks = {
   display: true, // Set true to display this section, defaults to false
 };
 
+const contact = {
+  pitch:
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris nunc congue nisi vitae.",
+  copyright: "Kaustubh Mishra",
+  contactUrl: "",
+};
+
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
@@ -136,4 +143,4 @@ const skillsBar = [
   },
 ];
 
-export { socialMediaLinks, workExperiences, educationInfo, skillsBar };
+export { socialMediaLinks, workExperiences, educationInfo, skillsBar, contact };

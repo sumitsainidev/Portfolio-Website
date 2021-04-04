@@ -5,7 +5,6 @@ export class NavHeader extends Component {
   render() {
     return (
       <Navbar className="nav-bar" variant="dark">
-        <Navbar.Brand href="#home">Navbar</Navbar.Brand>
         <Nav className="ml-auto mr-5">
           <Nav.Link className="nav-bar-link" href="#home">
             Home
