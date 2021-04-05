@@ -7,3 +7,9 @@
     color: white !important;
     font-size: 18px;
 }
+
+@media (max-width: 992px){
+    .mediaSettings {
+        background-color: rgba(0, 123, 255,0.8);
+    }
+}

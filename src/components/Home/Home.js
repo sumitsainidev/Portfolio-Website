@@ -34,7 +34,7 @@ export class Home extends Component {
       <div className="home-container" ref={this.vantaRef}>
         <NavHeader />
         <div className="home-container-content">
-          <div>
+          <div className="text-center container homeScreen">
             <h1>
               Hi I'm Sumit
               <motion.span
@@ -49,7 +49,10 @@ export class Home extends Component {
                 </span>
               </motion.span>{" "}
             </h1>
-            <p>
+            <p
+              className="mediaHandleP"
+              style={{ width: "54%", margin: "auto" }}
+            >
               A passionate Full Stack Software Developer having an experience of
               building Web and Mobile applications with JavaScript / Reactjs /
               Nodejs / React Native and some other cool libraries and

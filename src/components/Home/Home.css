@@ -4,15 +4,22 @@
 }
 
 .home-container-content{
+    min-height: 100vh;
+    align-content: center !important;
+    flex-wrap: wrap !important;
     padding: 1.8rem;
-    position: absolute;
-    width: 600px;
+    position: relative;
+    width: 100%;
     text-align: center;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    display: flex!important;
+
+
+}
+
+.text-center{
+    text-align: center !important;
+    width: 100% !important;
+    margin-left: auto;
 }
 
 .hand {
@@ -53,3 +60,21 @@
     color: #f8f9fa;
     border-color: #f8f9fa;
 }
+@media (max-width: 990px) {
+    html,
+    body {
+      font-size: 13px;
+      line-height: normal;
+    }
+    .mediaHandleP{
+        font-size: 23px !important;
+    }
+  }
+
+  @media (max-width: 770px) {
+
+    .mediaHandleP{
+        font-size: 21px !important;
+        width: 100% !important;
+    }
+  }
