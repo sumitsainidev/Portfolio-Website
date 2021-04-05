@@ -12,3 +12,17 @@
     padding-top:5px}
 
 .skill__square i:hover{color:#0275d8 !important}
+
+@media (max-width: 818px) {
+    .skill__square i{
+        font-size:60px !important;
+        color:#777 !important;
+        height:20px}
+  }
+
+@media (max-width: 450px) {
+.skill__square i{
+    font-size:45px !important;
+    color:#777 !important;
+    height:20px}
+}
