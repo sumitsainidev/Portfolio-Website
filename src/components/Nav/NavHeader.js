@@ -2,11 +2,31 @@ import React, { Component } from "react";
 import { Navbar, Nav } from "react-bootstrap";
 import "./NavHeader.css";
 export class NavHeader extends Component {
+  constructor(props) {
+    super(props);
+    this.state = { backGroundTrans: true };
+
+    this.changeBkColor = this.changeBkColor.bind(this);
+  }
+
+  changeBkColor() {
+    let oppState = !this.state.backGroundTrans;
+    this.setState({ backGroundTrans: oppState });
+  }
   render() {
     return (
-      <Navbar className="nav-bar mediaSettings" expand="lg" variant="dark">
+      <Navbar
+        className={`nav-bar ${
+          this.state.backGroundTrans ? "bkTrans" : "bkPrimary"
+        }`}
+        expand="lg"
+        variant="dark"
+      >
         <Navbar.Brand href="#home"></Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle
+          aria-controls="basic-navbar-nav"
+          onClick={this.changeBkColor}
+        />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto mr-5">
             <Nav.Link className="nav-bar-link p-2" href="#home">
