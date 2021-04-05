@@ -5,6 +5,9 @@ const socialMediaLinks = {
   display: true, // Set true to display this section, defaults to false
 };
 
+const home_p_section =
+  "A Passionate Full Stack Software Developer Having An Experience Of Building Web Applications For A Leading Smartphone Company And A Germany Based Real Estate Startup.";
+
 const contact = {
   pitch:
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris nunc congue nisi vitae.",
@@ -143,4 +146,11 @@ const skillsBar = [
   },
 ];
 
-export { socialMediaLinks, workExperiences, educationInfo, skillsBar, contact };
+export {
+  socialMediaLinks,
+  workExperiences,
+  educationInfo,
+  skillsBar,
+  contact,
+  home_p_section,
+};

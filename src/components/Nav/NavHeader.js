@@ -68,6 +68,9 @@ export class NavHeader extends Component {
             <Nav.Link className="nav-bar-link p-2" href="#Project">
               Project
             </Nav.Link>
+            <Nav.Link className="nav-bar-link p-2" href="#Project">
+              Resume
+            </Nav.Link>
             <Nav.Link className="nav-bar-link p-2" href="#Contact">
               Contact
             </Nav.Link>

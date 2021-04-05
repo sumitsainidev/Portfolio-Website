@@ -56,6 +56,12 @@
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
+.home-hello{
+    font-size: 30px;
+    font-weight: 400;
+    display: contents;
+}
+
 .btn-outline-light {
     color: #f8f9fa;
     border-color: #f8f9fa;
@@ -76,5 +82,12 @@
     .mediaHandleP{
         font-size: 21px !important;
         width: 100% !important;
+    }
+  }
+
+  @media (max-width: 440px) {
+
+    .home-hello{
+        display: block;
     }
   }

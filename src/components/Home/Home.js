@@ -5,7 +5,7 @@ import NavHeader from "../Nav/NavHeader";
 import { motion } from "framer-motion";
 import SocialMedia from "./SocialMedia/SocialMedia";
 import { Button } from "react-bootstrap";
-
+import { home_p_section } from "../../portfolio";
 export class Home extends Component {
   constructor() {
     super();
@@ -36,7 +36,7 @@ export class Home extends Component {
         <div className="home-container-content">
           <div className="text-center container homeScreen">
             <h1>
-              Hi I'm Sumit
+              <div className="home-hello">Hi, I'm </div>Sumit Saini
               <motion.span
                 drag={true}
                 dragConstraints={{ left: 0, top: 0, bottom: 0, right: 0 }}
@@ -53,13 +53,13 @@ export class Home extends Component {
               className="mediaHandleP"
               style={{ width: "54%", margin: "auto" }}
             >
-              A passionate Full Stack Software Developer having an experience of
-              building Web and Mobile applications with JavaScript / Reactjs /
-              Nodejs / React Native and some other cool libraries and
-              frameworks.
+              {home_p_section}
             </p>
             <SocialMedia />
-            <Button className="btn btn-outline-light btn-lg btn-background">
+            <Button
+              className="btn btn-outline-light btn-lg btn-background"
+              href="#Contact"
+            >
               Contact Me
             </Button>
           </div>
