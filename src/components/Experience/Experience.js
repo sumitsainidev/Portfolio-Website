@@ -7,7 +7,7 @@ import { Fade } from "react-reveal";
 export default function Experience() {
   if (workExperiences.display) {
     return (
-      <div id="experience">
+      <div id="Experience">
         <Fade bottom duration={1000} distance="20px">
           <div className="experience-container" id="workExperience">
             <div>

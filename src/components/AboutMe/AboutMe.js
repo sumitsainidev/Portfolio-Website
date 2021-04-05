@@ -4,7 +4,7 @@ import { Button } from "react-bootstrap";
 export class AboutMe extends Component {
   render() {
     return (
-      <div style={{ backgroundColor: "#e9ecef" }}>
+      <div id="AboutMe" style={{ backgroundColor: "#e9ecef" }}>
         <div className="container">
           <div className="changeFlexDir">
             <div className="flexBox image-section">

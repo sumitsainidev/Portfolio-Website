@@ -14,7 +14,7 @@ const Projects = ({ portfolios }) => {
   }, [count, portfolios]);
 
   return (
-    <div className="education-container">
+    <div id="Project" className="education-container">
       <div className="education-section">
         <Section id="portfolio">
           <h1 className="education-heading">Projects</h1>

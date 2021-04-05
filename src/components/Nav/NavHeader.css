@@ -2,7 +2,15 @@
     background-color: rgba(0,0,0,0.0);
     box-shadow: 0 0px 0px 0px #646464 !important;
 }
+.bkTrans{
+    background-color: rgba(0,0,0,0.0);
+    font-weight: bold;
+}
 
+.bkPrimary{
+    background-color: rgba(0, 123, 255,0.5);
+    font-weight: bold;
+}
 .nav-bar-link{
     color: white !important;
     font-size: 18px;

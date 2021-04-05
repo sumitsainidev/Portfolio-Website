@@ -4,7 +4,7 @@ import "./Contact.css";
 import { Button } from "react-bootstrap";
 const Contact = () => {
   return (
-    <div className="">
+    <div id="Contact">
       <div data-aos="zoom-in-up" data-aos-once="true" className="git-form">
         <>
           <div className="git-head-div text-center mx-auto">

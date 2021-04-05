@@ -31,7 +31,7 @@ export class Home extends Component {
   }
   render() {
     return (
-      <div className="home-container" ref={this.vantaRef}>
+      <div id="Home" className="home-container" ref={this.vantaRef}>
         <NavHeader />
         <div className="home-container-content">
           <div className="text-center container homeScreen">

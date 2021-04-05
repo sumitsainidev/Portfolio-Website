@@ -7,7 +7,7 @@ export class Skills extends Component {
       <div
         className="education-section"
         style={{ paddingTop: "0px" }}
-        id="education"
+        id="Skills"
       >
         <div
           className="row d-flex justify-content-center skills"
