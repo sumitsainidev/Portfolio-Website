@@ -2,6 +2,24 @@
     min-height: 70vh;
 }
 
+.changeFlexDir{
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+}
+
+.flexBox{
+    flex: 50%;
+}
+
+.about-section{
+    text-align: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .aboutme-wrapper div {
     height: 100%;
 }
@@ -9,13 +27,23 @@
 .about-container-content{
     padding: 1.8rem;
     position: absolute;
-    width: 600px;
+    width: 100%;
     text-align: center;
-    position: absolute;
     left: 50%;
     top: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+}
+
+.imageHandle{
+    width: 370px !important;
+    height: 370px !important;
+}
+
+.image-section{
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 
 .about-container-content h1 {
@@ -26,3 +54,16 @@
 .about-container-content p {
     font-size: 1.5rem;
 }
+
+@media (max-width: 1000px) {
+
+    .changeFlexDir{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+    .imageHandle{
+        width: 267px !important;
+        height: 267px !important;
+    }
+  }

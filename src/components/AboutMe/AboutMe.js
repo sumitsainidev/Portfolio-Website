@@ -4,29 +4,32 @@ import { Button } from "react-bootstrap";
 export class AboutMe extends Component {
   render() {
     return (
-      <div className="aboutme-wrapper jumbotron jumbotron-fluid m-0">
-        <div className="container container-fluid">
-          <div className="row">
-            <div className="col-5 d-none d-lg-block align-self-center ">
+      <div style={{ backgroundColor: "#e9ecef" }}>
+        <div className="container">
+          <div className="changeFlexDir">
+            <div className="flexBox image-section">
               <img
-                class="border border-secondary rounded-circle"
+                class="border border-secondary rounded-circle imageHandle"
                 src="Images/MyImg1.jpg"
                 alt="profilepicture"
-                width="370"
-                height="370"
               />
             </div>
-            <div className="col-lg-7">
-              <div className="about-container-content">
+            <div className="flexBox">
+              <div className="about-section">
                 <div>
                   <h1>About Me</h1>
-                  <p>
+                  <p className="mediaHandleP" style={{ fontSize: "21px" }}>
                     A passionate Full Stack Software Developer having an
                     experience of building Web and Mobile applications with
                     JavaScript / Reactjs / Nodejs / React Native and some other
                     cool libraries and frameworks.
                   </p>
-                  <Button className="btn btn-lg btn-background">Resume</Button>
+                  <Button
+                    className="btn btn-lg btn-background"
+                    style={{ marginBottom: "10px" }}
+                  >
+                    Resume
+                  </Button>
                 </div>
               </div>
             </div>
