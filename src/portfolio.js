@@ -62,22 +62,17 @@ const educationInfo = {
     {
       schoolName: "Delhi Technological University",
       logo: "./Images/dtu_logo.png",
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      ],
+      subHeader:
+        "Bachelor of Technology in Electronics And Communication Engg.",
+      duration: "May 2015 - May 2019",
+      desc: "CGPA : 7.33/10",
     },
     {
       schoolName: "Kendriya Vidyalaya",
       logo: "./Images/kv_logo.png",
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc:
-        "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"],
+      subHeader: "High School Class-XII",
+      duration: "April 2014 - April 2015",
+      desc: "Percentage: 92/100",
     },
   ],
 };
