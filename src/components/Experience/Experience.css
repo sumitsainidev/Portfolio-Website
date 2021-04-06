@@ -39,6 +39,13 @@
     }
   }
   
+  @media (max-width: 890px) {
+    .experience-cards-div {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
   @media (max-width: 768px) {
     .experience-heading {
       font-size: 30px;

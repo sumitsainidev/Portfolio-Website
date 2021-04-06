@@ -117,6 +117,7 @@
   .experience-text-details {
     padding: 1.5rem;
     margin-top: 2rem;
+    height: 370px;
   }
   
   /* Media Query */
@@ -150,5 +151,23 @@
     }
     .experience-text-desc {
       font-size: 16px;
+    }
+  }
+
+  @media (max-width: 1120px) {
+    .experience-text-details {
+      height: 445px;
+    }
+  }
+
+  @media (max-width: 990px) {
+    .experience-text-details {
+      height: 320px;
+    }
+  }
+
+  @media (max-width: 890px) {
+    .experience-text-details {
+      height: auto;
     }
   }

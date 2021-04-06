@@ -26,16 +26,17 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Full-Stack Developer",
+      role: "Software Developer",
       company: "Samsung",
       companyLink: "//www.samsung.com/",
       companylogo: "./Images/samsung_logo.png",
       date: "June 2019 – Nov 2020",
       desc:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "Worked with Knox Service framework team, responsible for development and maintenance of Backend APIs for Mobile Device Management Solutions for Samsung Mobile’s B2B clients.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Created Remote Control MDM APIs (NodeJs, Express, AWS)",
+        "Knox Secure Network (KSN) MDM APIs (NodeJs, Express, AWS)",
+        "Enterprise Billing (E-Billing) (NodeJs, Express, AWS)",
       ],
     },
     {
@@ -45,7 +46,12 @@ const workExperiences = {
       companylogo: "./Images/jf_logo.png",
       date: "Nov 2020 – Present",
       desc:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "Currently working as a part of Research & Development team at J&F Projects (HQ. Frankfurt,Germany), responsible for generating a live rendering of assets on scale & quality for one of the product Buildtwin",
+      descBullets: [
+        "Created Node API for extraction of SVG Floorplan from 3d Model (ReactJs, NodeJs ,ThreeJs, Express, AWS)",
+        "Created API for 360 image generation from 3d Model at Backend (NodeJs ,ThreeJs, Express, AWS)",
+        "Created 360 Panaroma Viewer for Frontend (JavaScript, ReactJs, Three Js, Material UI)",
+      ],
     },
   ],
 };
