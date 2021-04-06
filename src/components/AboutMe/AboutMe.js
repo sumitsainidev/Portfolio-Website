@@ -1,6 +1,11 @@
 import React, { Component } from "react";
 import "./AboutMe.css";
 import { Button } from "react-bootstrap";
+import {
+  about_p_section_1,
+  about_p_section_2,
+  about_p_section_3,
+} from "../../portfolio";
 export class AboutMe extends Component {
   render() {
     return (
@@ -19,10 +24,25 @@ export class AboutMe extends Component {
                 <div>
                   <h1>About Me</h1>
                   <p className="mediaHandleP" style={{ fontSize: "21px" }}>
-                    A passionate Full Stack Software Developer having an
-                    experience of building Web and Mobile applications with
-                    JavaScript / Reactjs / Nodejs / React Native and some other
-                    cool libraries and frameworks.
+                    {about_p_section_1}
+                    <a
+                      href="http://dtu.ac.in/"
+                      className="left"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Delhi Technological University (D.T.U).
+                    </a>
+                    {about_p_section_2}
+                    <a
+                      href="https://www.jf.ag/"
+                      className="left"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      J&F Projects, Noida.
+                    </a>
+                    {about_p_section_3}
                   </p>
                   <Button
                     className="btn btn-lg btn-background"

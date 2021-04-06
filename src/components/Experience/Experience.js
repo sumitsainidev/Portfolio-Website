@@ -15,17 +15,24 @@ export default function Experience() {
               <div className="experience-cards-div">
                 {workExperiences.experience.map((card, i) => {
                   return (
-                    <ExperienceCard
-                      key={i}
-                      cardInfo={{
-                        company: card.company,
-                        desc: card.desc,
-                        date: card.date,
-                        companylogo: card.companylogo,
-                        role: card.role,
-                        descBullets: card.descBullets,
-                      }}
-                    />
+                    <a
+                      href={card.companyLink}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="cardLink"
+                    >
+                      <ExperienceCard
+                        key={i}
+                        cardInfo={{
+                          company: card.company,
+                          desc: card.desc,
+                          date: card.date,
+                          companylogo: card.companylogo,
+                          role: card.role,
+                          descBullets: card.descBullets,
+                        }}
+                      />
+                    </a>
                   );
                 })}
               </div>

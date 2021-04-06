@@ -8,6 +8,13 @@ const socialMediaLinks = {
 const home_p_section =
   "A Passionate Full Stack Software Developer Having An Experience Of Building Web Applications For A Leading Smartphone Company And A Germany Based Real Estate Startup.";
 
+const about_p_section_1 =
+  "👋 Hello I'm Sumit Saini, A dedicated and passionate Full stack developer who loves to design and code 👨🏼‍💻. I build high-quality applications for the web. I concentrate on writing clean and understandable code. I'm a graduate 👨‍🎓 in Electronics and Communication Engineering from ";
+const about_p_section_2 =
+  " I'm currently working 💻 as a Full Stack developer at ";
+const about_p_section_3 =
+  " I enjoy spending my free time exploring new tech stacks, and contributing my knowledge to open source community.";
+
 const contact = {
   pitch:
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris nunc congue nisi vitae.",
@@ -21,6 +28,7 @@ const workExperiences = {
     {
       role: "Full-Stack Developer",
       company: "Samsung",
+      companyLink: "//www.samsung.com/",
       companylogo: "./Images/samsung_logo.png",
       date: "June 2019 – Nov 2020",
       desc:
@@ -33,6 +41,7 @@ const workExperiences = {
     {
       role: "Full-Stack Developer",
       company: "J&F",
+      companyLink: "//www.jf.ag/",
       companylogo: "./Images/jf_logo.png",
       date: "Nov 2020 – Present",
       desc:
@@ -153,4 +162,7 @@ export {
   skillsBar,
   contact,
   home_p_section,
+  about_p_section_1,
+  about_p_section_2,
+  about_p_section_3,
 };

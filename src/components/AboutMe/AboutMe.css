@@ -55,6 +55,30 @@
     font-size: 1.5rem;
 }
 
+
+a.left
+{
+    text-decoration: none;
+    position: relative;
+}
+
+a.left:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #007bff;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+a.left:hover:before {
+    visibility: visible;
+    width: 100%;
+  }
+
 @media (max-width: 1000px) {
 
     .changeFlexDir{
