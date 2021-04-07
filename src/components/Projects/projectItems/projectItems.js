@@ -17,24 +17,7 @@ import AppLandingPageThumb from "../assets/portfolio/app-landingpage.png"
 
 let a = [
   {
-    img: "",
-    title: "Crypto Calculator",
-    desc:
-      "Simple CRUD MERN Stack app that allows creating, reading, updating and deleting tweets and basic look of Twitter",
-    demo: "https://mern-twitter-crud.herokuapp.com/",
-    source: "https://mern-twitter-crud.herokuapp.com/",
-  },
-
-  {
-    img: "",
-    title: "Optical Character Recognition (OCR) App",
-    desc:
-      "A resort for fictional hotel, in which we can filter out the hotel rooms and see specific info about the hotel.",
-    demo: "https://himalayanresort.netlify.app/",
-    source: "https://github.com/aacismaharjan/himalayanresort",
-  },
-  {
-    img: "",
+    img: "https://media.giphy.com/media/bjmKbepa67KQOIw4W3/giphy.gif",
     title: "Passport Photo Detector App",
     desc:
       "Fetches Github Api of user and processes it into meaningful information with the help of fusion charts and Auth0",
@@ -42,7 +25,15 @@ let a = [
     source: "https://github.com/aacismaharjan/search-github-user",
   },
   {
-    img: "",
+    img: "https://media.giphy.com/media/7aLxCWlcrrM3bpiZk8/giphy.gif",
+    title: "Optical Character Recognition (OCR) App",
+    desc:
+      "A resort for fictional hotel, in which we can filter out the hotel rooms and see specific info about the hotel.",
+    demo: "https://himalayanresort.netlify.app/",
+    source: "https://github.com/aacismaharjan/himalayanresort",
+  },
+  {
+    img: "https://media.giphy.com/media/5ztZecNbXcEGRE28HV/giphy.gif",
     title: "Covid-19 Tracker",
     desc:
       "It shows the overall corona cases throughout the world, Also presents data in readable diagrams/charts.",
@@ -50,7 +41,15 @@ let a = [
     source: "https://github.com/aacismaharjan/coronatracker",
   },
   {
-    img: "",
+    img: "https://media.giphy.com/media/8d2nqw524eIuQ7wdQo/giphy.gif",
+    title: "Crypto Calculator",
+    desc:
+      "Simple CRUD MERN Stack app that allows creating, reading, updating and deleting tweets and basic look of Twitter",
+    demo: "https://mern-twitter-crud.herokuapp.com/",
+    source: "https://mern-twitter-crud.herokuapp.com/",
+  },
+  {
+    img: "https://media.giphy.com/media/aReLKfvTvICZgOlt6C/giphy.gif",
     title: "Bookstore",
     desc:
       "A simple react-redux, redux-thunk web app for create, read, update and delete restful apis.",
@@ -58,7 +57,7 @@ let a = [
     source: "https://github.com/aacismaharjan/react-redux-rest",
   },
   {
-    img: "",
+    img: "https://media.giphy.com/media/iKdNRUk45ds2qoCaa0/giphy.gif",
     title: "Chat App",
     desc:
       "Created with highly reusable components, can be updated from remote file.",
@@ -66,7 +65,7 @@ let a = [
     source: "https://getwatch.netlify.app/",
   },
   {
-    img: "",
+    img: "https://media.giphy.com/media/PDKBQpM90qWaHXJ17G/giphy.gif",
     title: "Portfolio Website",
     desc:
       "Fusion App HTML Template created using HTML, CSS, Bootstrap, JS, Jquery, and other thrid party libraries.",
@@ -74,7 +73,7 @@ let a = [
     source: "https://fusion-app-landing-page.netlify.app/",
   },
   {
-    img: "",
+    img: "https://media.giphy.com/media/MpStSM4H6Q6bwZVZpG/giphy.gif",
     title: "Airline Review",
     desc:
       "Landing page template for watch product. Created with HTML, CSS, JS, Jquery, Bootstrap and other production ready libraries.",

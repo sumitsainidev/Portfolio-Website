@@ -17,8 +17,8 @@ const about_p_section_3 =
 
 const contact = {
   pitch:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris nunc congue nisi vitae.",
-  copyright: "Kaustubh Mishra",
+    "My inbox is always open whether for a potential project or just to say Hi, I'll try my best to answer your email! Also, you can find me on Linkldn too.",
+  copyright: "Sumit Saini",
   contactUrl: "",
 };
 

@@ -58,7 +58,9 @@ const Contact = () => {
             </form>
           </div>
           <div className="half flex-item-right">
-            <p className="lead">{contact.pitch}</p>
+            <p className="lead" style={{ fontWeight: "400" }}>
+              {contact.pitch}
+            </p>
             <div className="d-flex justify-content-center align-items-center flex-column">
               <div
                 className="inline-block"
