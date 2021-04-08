@@ -81,7 +81,7 @@ let a = [
     source: "https://github.com/aacismaharjan/react_landing_page",
   },
   {
-    img: "",
+    img: "https://media.giphy.com/media/sO8pORdl2kut8HUXJR/giphy.gif",
     title: "CBSE Result Analyser",
     desc:
       "Simple Youtube Clone with React.js. It utilizes the Youtube api to fetch the data and display it",
@@ -89,7 +89,7 @@ let a = [
     source: "https://github.com/aacismaharjan/youtube-clone",
   },
   {
-    img: "",
+    img: "https://media.giphy.com/media/iuMhqyOhFmqpdI1IO9/giphy.gif",
     title: "Open Interest (OI) Analyser",
     desc:
       "Simple Portfolio Template using Pure HTML, CSS & Javascript. No use of any third party libraries.",
