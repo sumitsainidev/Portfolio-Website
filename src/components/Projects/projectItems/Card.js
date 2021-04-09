@@ -3,7 +3,7 @@ import { Button, Card } from "react-bootstrap";
 import { motion, AnimatePresence } from "framer-motion";
 
 export default function PortfolioCard({
-  card: { img, title, desc, demo, source },
+  card: { img, title, desc, demo, source, language_array },
 }) {
   const [isLoading, setIsLoading] = useState(true);
 
@@ -28,7 +28,7 @@ export default function PortfolioCard({
       </AnimatePresence>
     );
   };
-
+  let array = language_array;
   return (
     <Card data-aos="flip-left">
       <div className="card-thumbnail" style={thumbnail}>
@@ -38,6 +38,26 @@ export default function PortfolioCard({
       <Card.Body>
         <Card.Title className="title">{title}</Card.Title>
         <Card.Text>{desc}</Card.Text>
+        <div>
+          {array.map((language) => (
+            <p
+              key={language}
+              className="badge badge-light card-link"
+              style={{
+                backgroundColor: "#007bff",
+                color: "#ffffff",
+                padding: ".25em 0.3em",
+                fontSize: "16px",
+                fontWeight: "400",
+                marginLeft: "0",
+                marginRight: "0.5rem",
+                marginBottom: "5px",
+              }}
+            >
+              {language}
+            </p>
+          ))}
+        </div>
         <div className="btn-grp">
           <Button href={demo} target="_blank">
             Live Demo

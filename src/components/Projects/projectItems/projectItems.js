@@ -17,82 +17,99 @@ import AppLandingPageThumb from "../assets/portfolio/app-landingpage.png"
 
 let a = [
   {
-    img: "https://media.giphy.com/media/bjmKbepa67KQOIw4W3/giphy.gif",
+    img: "./GIF/passport_photo.gif",
     title: "Passport Photo Detector App",
     desc:
-      "Fetches Github Api of user and processes it into meaningful information with the help of fusion charts and Auth0",
-    demo: "https://github-user-stats.netlify.app/",
-    source: "https://github.com/aacismaharjan/search-github-user",
+      "A Web app which detects whether uploaded photo is a good fit for a profile picture or not.",
+    language_array: ["ReactJs", "NodeJs", "AWS Rekognition", "AWS Lambda"],
+    demo:
+      "http://passport-photo-validator-app.s3-website-us-east-1.amazonaws.com",
+    source: "https://github.com/sumitsaini199711/Passport-Photo-App",
   },
   {
-    img: "https://media.giphy.com/media/7aLxCWlcrrM3bpiZk8/giphy.gif",
+    img: "./GIF/OCR.gif",
     title: "Optical Character Recognition (OCR) App",
     desc:
-      "A resort for fictional hotel, in which we can filter out the hotel rooms and see specific info about the hotel.",
-    demo: "https://himalayanresort.netlify.app/",
-    source: "https://github.com/aacismaharjan/himalayanresort",
+      "A Web app which can extract invoice billing details from image or pdf.",
+    language_array: [
+      "ReactJs",
+      "NodeJs",
+      "AWS Textract",
+      "AWS Lambda",
+      "AWS S3",
+    ],
+    demo: "http://ocr-react-app.s3-website-us-east-1.amazonaws.com/",
+    source: "https://github.com/sumitsaini199711/OCR-App",
   },
   {
-    img: "https://media.giphy.com/media/5ztZecNbXcEGRE28HV/giphy.gif",
+    img: "./GIF/covid_19.gif",
     title: "Covid-19 Tracker",
     desc:
       "It shows the overall corona cases throughout the world, Also presents data in readable diagrams/charts.",
+    language_array: ["ReactJs", "NodeJs", "AWS Rekognition"],
     demo: "https://aacismaharjan.github.io/coronatracker/",
     source: "https://github.com/aacismaharjan/coronatracker",
   },
   {
-    img: "https://media.giphy.com/media/8d2nqw524eIuQ7wdQo/giphy.gif",
+    img: "./GIF/crypto_currency.gif",
     title: "Crypto Calculator",
     desc:
       "Simple CRUD MERN Stack app that allows creating, reading, updating and deleting tweets and basic look of Twitter",
+    language_array: ["ReactJs", "NodeJs", "AWS Rekognition"],
     demo: "https://mern-twitter-crud.herokuapp.com/",
     source: "https://mern-twitter-crud.herokuapp.com/",
   },
   {
-    img: "https://media.giphy.com/media/aReLKfvTvICZgOlt6C/giphy.gif",
+    img: "./GIF/bookstore.gif",
     title: "Bookstore",
     desc:
       "A simple react-redux, redux-thunk web app for create, read, update and delete restful apis.",
+    language_array: ["ReactJs", "NodeJs", "AWS Rekognition"],
     demo: "https://aacismaharjan.github.io/react-redux-rest/",
     source: "https://github.com/aacismaharjan/react-redux-rest",
   },
   {
-    img: "https://media.giphy.com/media/iKdNRUk45ds2qoCaa0/giphy.gif",
+    img: "./GIF/chat_app.gif",
     title: "Chat App",
     desc:
       "Created with highly reusable components, can be updated from remote file.",
+    language_array: ["ReactJs", "NodeJs", "AWS Rekognition"],
     demo: "https://getwatch.netlify.app/",
     source: "https://getwatch.netlify.app/",
   },
   {
-    img: "https://media.giphy.com/media/PDKBQpM90qWaHXJ17G/giphy.gif",
+    img: "./GIF/portfolio_website.gif",
     title: "Portfolio Website",
     desc:
       "Fusion App HTML Template created using HTML, CSS, Bootstrap, JS, Jquery, and other thrid party libraries.",
+    language_array: ["ReactJs", "NodeJs", "AWS Rekognition"],
     demo: "https://fusion-app-landing-page.netlify.app/",
     source: "https://fusion-app-landing-page.netlify.app/",
   },
   {
-    img: "https://media.giphy.com/media/MpStSM4H6Q6bwZVZpG/giphy.gif",
+    img: "./GIF/airline_review.gif",
     title: "Airline Review",
     desc:
       "Landing page template for watch product. Created with HTML, CSS, JS, Jquery, Bootstrap and other production ready libraries.",
+    language_array: ["ReactJs", "NodeJs", "AWS Rekognition"],
     demo: "https://getwatch.netlify.app/",
     source: "https://github.com/aacismaharjan/react_landing_page",
   },
   {
-    img: "https://media.giphy.com/media/sO8pORdl2kut8HUXJR/giphy.gif",
+    img: "./GIF/cbse_result.gif",
     title: "CBSE Result Analyser",
     desc:
       "Simple Youtube Clone with React.js. It utilizes the Youtube api to fetch the data and display it",
+    language_array: ["ReactJs", "NodeJs", "AWS Rekognition"],
     demo: "https://aacismaharjan.github.io/youtube-clone/",
     source: "https://github.com/aacismaharjan/youtube-clone",
   },
   {
-    img: "https://media.giphy.com/media/iuMhqyOhFmqpdI1IO9/giphy.gif",
+    img: "./GIF/OIAnalysis.gif",
     title: "Open Interest (OI) Analyser",
     desc:
       "Simple Portfolio Template using Pure HTML, CSS & Javascript. No use of any third party libraries.",
+    language_array: ["ReactJs", "NodeJs", "AWS Rekognition"],
     demo: "https://aacismaharjan.github.io/simple_portfolio/",
     source: "https://github.com/aacismaharjan/simple_portfolio",
   },
