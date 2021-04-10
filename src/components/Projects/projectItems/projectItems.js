@@ -1,20 +1,3 @@
-/*
-import CoronaTrackerThumb from "../assets/portfolio/coronatracker.jpg"
-import HamroJourneyThumb from "../assets/portfolio/hamrojourney.jpg"
-import HimalanResortThumb from "../assets/portfolio/himalayanresort.jpg"
-import RMSThumb from "../assets/portfolio/rms.jpg"
-import QuizbeeThumb from "../assets/portfolio/quizbee.jpg"
-import YoutubeCloneThumb from "../assets/portfolio/youtube-clone.jpg"
-import SimplePortfolioThumb from "../assets/portfolio/simple_portfolio.jpg"
-import CoolorsThumb from "../assets/portfolio/coolors.jpg"
-import GetWatchThumb from "../assets/portfolio/getwatch.jpg"
-import ReactReduxRestThumb from "../assets/portfolio_hd/react-redux-rest.png"
-import GithubUserStatThumb from "../assets/portfolio/github_user_stats.jpg"
-import MernTwitterCloneThumb from "../assets/portfolio/mern-twitter-clone.png"
-import LandingPageTemplateThumb from "../assets/portfolio/landing_page_template.jpg"
-import AppLandingPageThumb from "../assets/portfolio/app-landingpage.png"
-*/
-
 let a = [
   {
     img: "./GIF/passport_photo.gif",
