@@ -57,7 +57,9 @@ export class Home extends Component {
             </p>
             <SocialMedia />
             <Button
+              id="hoverId"
               className="btn btn-outline-light btn-lg btn-background"
+              style={{ backgroundColor: "#007bff" }}
               href="#Contact"
             >
               Contact Me
