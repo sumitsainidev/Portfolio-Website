@@ -5,6 +5,7 @@ import {
   about_p_section_1,
   about_p_section_2,
   about_p_section_3,
+  socialMediaLinks,
 } from "../../portfolio";
 export class AboutMe extends Component {
   render() {
@@ -47,6 +48,8 @@ export class AboutMe extends Component {
                   <Button
                     className="btn btn-lg btn-background"
                     style={{ marginBottom: "10px" }}
+                    href={socialMediaLinks.resume}
+                    download
                   >
                     Resume
                   </Button>

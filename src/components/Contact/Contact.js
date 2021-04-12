@@ -2,7 +2,31 @@ import React from "react";
 import { contact, socialMediaLinks } from "../../portfolio";
 import "./Contact.css";
 import { Button } from "react-bootstrap";
+import emailjs from "emailjs-com";
 const Contact = () => {
+  function sendEmail(e) {
+    e.preventDefault();
+    emailjs.init("user_8Y258fjhQFl5MV0fzn9xR");
+    emailjs
+      .sendForm(
+        "service_g8h58jn",
+        "template_y9t9vcg",
+        e.target,
+        "user_8Y258fjhQFl5MV0fzn9xR"
+      )
+      .then(
+        (result) => {
+          alert("Thank you for connecting.");
+          e.target.reset();
+        },
+        (error) => {
+          alert(
+            "Some Error Occured. Please try again or Contact me on linkldn"
+          );
+        }
+      );
+  }
+
   return (
     <div id="Contact">
       <div data-aos="zoom-in-up" data-aos-once="true" className="git-form">
@@ -15,15 +39,10 @@ const Contact = () => {
         </>
         <div className="flex-container">
           <div className="half flex-item-left">
-            <form
-              action={
-                contact.contactUrl ? contact.contactUrl : "https://formspree.io"
-              }
-              method={contact.contactUrl ? "POST" : "GET"}
-            >
+            <form onSubmit={sendEmail}>
               <input
                 type="text"
-                id="fname"
+                id="name"
                 name="firstname"
                 placeholder="Your name"
                 required
@@ -31,14 +50,14 @@ const Contact = () => {
               <input
                 type="mail"
                 id="mailid"
-                name="Email"
+                name="email"
                 placeholder="Email Address"
                 required
               ></input>
               <input
                 type="text"
                 id="sub"
-                name="Subject"
+                name="subject"
                 placeholder="Subject"
                 required
               ></input>
@@ -52,6 +71,7 @@ const Contact = () => {
               <Button
                 className="btn btn-lg buttonBack"
                 style={{ marginLeft: "10px" }}
+                type="submit"
               >
                 Submit
               </Button>
@@ -93,7 +113,7 @@ const Contact = () => {
 
               <a
                 title="Download Resume"
-                href="www.google.com"
+                href={socialMediaLinks.resume}
                 style={{ paddingTop: "5px", fontSize: "42px", width: "50px" }}
                 download
               >

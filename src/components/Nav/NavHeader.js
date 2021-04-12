@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Navbar, Nav } from "react-bootstrap";
 import "./NavHeader.css";
+import { socialMediaLinks } from "../../portfolio";
 export class NavHeader extends Component {
   constructor(props) {
     super(props);
@@ -68,7 +69,11 @@ export class NavHeader extends Component {
             <Nav.Link className="nav-bar-link p-2" href="#Project">
               Project
             </Nav.Link>
-            <Nav.Link className="nav-bar-link p-2" href="#Project">
+            <Nav.Link
+              className="nav-bar-link p-2"
+              href={socialMediaLinks.resume}
+              download
+            >
               Resume
             </Nav.Link>
             <Nav.Link className="nav-bar-link p-2" href="#Contact">
