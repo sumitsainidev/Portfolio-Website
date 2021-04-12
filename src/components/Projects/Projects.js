@@ -27,6 +27,11 @@ const Projects = ({ portfolios }) => {
             {count < portfolios.length && (
               <div
                 className="btn btn-primary mt-5 btn-lg"
+                style={{
+                  color: "#fff",
+                  backgroundColor: "#007bff",
+                  borderColor: "#007bff",
+                }}
                 onClick={() => setCount(count + 4)}
               >
                 See more

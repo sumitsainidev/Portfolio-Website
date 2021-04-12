@@ -2,6 +2,18 @@ html{
   scroll-behavior: smooth;
 }
 
+.btn-primary {
+  color: #fff !important;
+  background-color: #007bff !important;
+  border-color: #007bff !important;
+}
+
+.btn-secondary {
+  color: #fff !important;
+  background-color: #6c757d !important;
+  border-color: #6c757d !important;
+}
+
 body {
   color:black;
   margin: 0;

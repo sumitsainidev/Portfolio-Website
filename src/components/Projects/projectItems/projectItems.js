@@ -101,8 +101,8 @@ let a = [
       "SCSS",
       "Netlify",
     ],
-    demo: "https://fusion-app-landing-page.netlify.app/",
-    source: "https://fusion-app-landing-page.netlify.app/",
+    demo: "https://sumitsaini.netlify.app/",
+    source: "https://github.com/sumitsaini199711/Portfolio-Website",
   },
   {
     img: "./GIF/airline_review.gif",
