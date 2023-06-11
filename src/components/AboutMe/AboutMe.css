@@ -46,6 +46,10 @@
     display: flex;
 }
 
+.image-section img{
+    background:rgb(0, 123, 255,0.3)
+}
+
 .about-container-content h1 {
     font-size: 3.0rem;
     margin-bottom: 30px;

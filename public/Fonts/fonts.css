@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'MyFontIcons';
+    src: url('./fontello.woff2') format('woff2'),
+         url('./fontello.woff') format('woff');
+  }
+  
+  .icon {
+    font-family: 'MyFontIcons';
+  }
+  
+  .icon-typescript:before {
+    content: '\E800'; /* Unicode value of the icon */
+  }
+  .icon-express:before {
+    content: '\E801';
+  }
+  .icon-neo4j:before {
+    content: '\E802';
+  }
+  .icon-postgres:before {
+    content: '\E803';
+  }
+  .icon-graphql:before {
+    content: '\E805';
+  }
+  .icon-chatgpt:before {
+    content: '\E806';
+  }
+  .icon-mysql:before {
+    content: '\E809';
+  }
+  .icon-netlify:before {
+    content: '\E80A';
+  }
+  .icon-swagger:before {
+    content: '\E80B';
+  }
+  .icon-awslambda:before {
+    content: '\E80C';
+  }

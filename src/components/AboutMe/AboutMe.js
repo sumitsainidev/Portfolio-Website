@@ -16,7 +16,7 @@ export class AboutMe extends Component {
             <div className="flexBox image-section">
               <img
                 class="border border-secondary rounded-circle imageHandle"
-                src="Images/MyImg1.jpg"
+                src="Images/MyImg1.png"
                 alt="profilepicture"
               />
             </div>
@@ -41,7 +41,7 @@ export class AboutMe extends Component {
                       target="_blank"
                       rel="noreferrer"
                     >
-                      J&F Projects, Noida.
+                      J&F India Pvt. Ltd.
                     </a>
                     {about_p_section_3}
                   </p>
@@ -49,6 +49,7 @@ export class AboutMe extends Component {
                     className="btn btn-lg btn-background"
                     style={{ marginBottom: "10px" }}
                     href={socialMediaLinks.resume}
+                    target="_blank"
                     download
                   >
                     Resume

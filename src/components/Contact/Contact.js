@@ -113,6 +113,7 @@ const Contact = () => {
 
               <a
                 title="Download Resume"
+                target="_blank"
                 href={socialMediaLinks.resume}
                 style={{ paddingTop: "5px", fontSize: "42px", width: "50px" }}
                 download

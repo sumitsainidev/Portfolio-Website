@@ -10,7 +10,6 @@
     "colorthief": "^2.3.2",
     "emailjs-com": "^2.6.4",
     "framer-motion": "^4.0.3",
-    "node-sass": "^5.0.0",
     "react": "^17.0.2",
     "react-bootstrap": "^1.5.2",
     "react-dom": "^17.0.2",
@@ -20,6 +19,7 @@
     "redux": "^4.0.5",
     "redux-devtools-extension": "^2.13.9",
     "redux-thunk": "^2.3.0",
+    "sass": "^1.63.3",
     "vanta": "^0.5.21",
     "web-vitals": "^1.0.1"
   },

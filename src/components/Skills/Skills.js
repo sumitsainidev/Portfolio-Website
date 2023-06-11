@@ -13,9 +13,13 @@ export class Skills extends Component {
           className="row d-flex justify-content-center skills"
           style={{ marginBottom: "0px" }}
         >
-          {skillsBar.map((x) => (
-            <SkillsCard faClass={x.faClass} label={x.name} />
-          ))}
+          {skillsBar.map((x) => {
+            if(!x.faClass){
+              return <SkillsCard html={x.html} label={x.name} />
+            }
+            return <SkillsCard faClass={x.faClass} label={x.name} />
+          }
+          )}
         </div>
       </div>
     );
