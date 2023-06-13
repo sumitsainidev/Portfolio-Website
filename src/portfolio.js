@@ -1,5 +1,5 @@
 const socialMediaLinks = {
-  github: "https://github.com/sumitsaini199711/",
+  github: "https://github.com/sumitsainidev/",
   linkedin: "https://www.linkedin.com/in/sumit-saini-90898b117/",
   gmail: "sumitsaini199711@gmail.com",
   resume:
