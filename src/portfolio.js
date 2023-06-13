@@ -3,7 +3,7 @@ const socialMediaLinks = {
   linkedin: "https://www.linkedin.com/in/sumit-saini-90898b117/",
   gmail: "sumitsaini199711@gmail.com",
   resume:
-    "https://drive.google.com/file/d/1NVoESbjhEFgILoi93_n2bVqZfVWop2S2/view?usp=sharing",
+    "https://drive.google.com/file/d/1B2QfptaU1fnwWWH-vs7VU2lSyso3k31H/view?usp=sharing",
   display: true, // Set true to display this section, defaults to false
 };
 
